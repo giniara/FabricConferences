@@ -1,0 +1,20 @@
+{
+  "name": "fabricconferences",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-graphql": "^0.12.0",
+    "express-jwt": "^8.5.1",
+    "graphql": "^16.10.0",
+    "jsonwebtoken": "^9.0.2",
+    "mssql": "^11.0.1"
+  }
+}
