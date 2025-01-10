@@ -10,7 +10,7 @@ const { buildSchema } = require('graphql');
 // Definir el esquema GraphQL
 const schema = buildSchema(`
   type Query {
-    hello: String,
+    hello: String!
   }
 `);
 
