@@ -35,6 +35,6 @@ app.use('/graphql', graphqlHTTP({
   graphiql: true,
 }));
 
-app.listen(5000, () => {
-  console.log('Servidor GraphQL ejecutándose en http://localhost:5000/graphql');
+app.listen(4000, () => {
+  console.log('Servidor GraphQL ejecutándose en http://localhost:4000/graphql');
 });
