@@ -9,6 +9,12 @@ const { buildSchema } = require('graphql');
 
 // Definir el esquema GraphQL
 const schema = buildSchema(`
+  type Cliente {
+  id: Int
+  nombre: String
+  direccion: String
+  }
+
   type Query {
     hello: String
   }
